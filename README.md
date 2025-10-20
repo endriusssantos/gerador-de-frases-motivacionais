@@ -55,7 +55,7 @@ http://localhost:5173
 
 Você pode testar a aplicação diretamente no seguinte link:
 
-👉 gerador-de-frases-motivacionais.vercel.app
+👉 [Link para a aplicação](gerador-de-frases-motivacionais.vercel.app)
 
 ## 👨‍💻 Contribuições
 
