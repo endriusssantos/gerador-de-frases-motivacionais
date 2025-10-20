@@ -1,16 +1,73 @@
-# React + Vite
+# Gerador de Frases Motivacionais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descrição
 
-Currently, two official plugins are available:
+Este projeto é um gerador de frases motivacionais desenvolvido com React e Vite. Ao clicar no botão, o usuário recebe uma frase inspiradora aleatória, com animação suave de transição.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+- Gerar frase aleatória: Ao clicar no botão, uma nova frase motivacional é exibida.
+- Animação de transição: A frase desaparece e reaparece suavemente, proporcionando uma experiência agradável ao usuário.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React: Biblioteca JavaScript para construção da interface.
+- Vite: Ferramenta de build rápida e moderna.
+- CSS: Estilização da aplicação e animações.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como Rodar o Projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/endriusssantos/gerador-de-frases-motivacionais.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd gerador-de-frases-motivacionais
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+5. Abra o navegador e acesse:
+
+```bash
+http://localhost:5173
+```
+
+## 📸 Preview
+
+![Preview](src/assets/preview.png)
+
+## 🌐 Acesse Online
+
+Você pode testar a aplicação diretamente no seguinte link:
+
+👉 gerador-de-frases-motivacionais.vercel.app
+
+## 👨‍💻 Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou correções. Para isso:
+
+- Faça um fork deste repositório.
+- Crie uma branch para sua feature (git checkout -b feature/MinhaFeature).
+- Faça o commit das suas alterações (git commit -am 'Adiciona nova feature').
+- Envie para o repositório remoto (git push origin feature/MinhaFeature).
+- Abra um Pull Request.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE
+para mais detalhes.
